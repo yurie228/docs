@@ -61,7 +61,7 @@ jobs:
                 owner: owner,
                 repo: repo,
                 issue_number: context.payload.pull_request.number,
-                assignees: [
+                assignees: [+639395040223
                   context.payload.sender.login
                 ]
               });
